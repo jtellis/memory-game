@@ -1,5 +1,5 @@
 .board {
-  height: 80%;
+  height: 50%;
   width: 50%;
   display: inline-block;
 }
@@ -9,6 +9,8 @@
   height: 200px;
   width: 150px;
   border: 1px solid black;
+  margin: 8%;
+  float: left;
 }
 h1 {
   color: rgb(2, 132, 130);
@@ -21,4 +23,29 @@ h2 {
 }
 body {
   text-align: center;
+}
+nav {
+  background: #808080;
+}
+nav a {
+  background-color: #ffbf00;
+  color: white;
+  padding: 35px;
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+nav a:hover{
+  background-color: #ee5f3c;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+footer {
+  background-color: #808080;
 }
