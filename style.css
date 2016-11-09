@@ -1,0 +1,24 @@
+.board {
+  height: 80%;
+  width: 50%;
+  display: inline-block;
+}
+.card {
+  border-radius: 10px;
+  background-color: #ffff00;
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+}
+h1 {
+  color: rgb(2, 132, 130);
+}
+h2 {
+  color: #ffd700;
+}
+.name {
+  color: #ff0000;
+}
+body {
+  text-align: center;
+}
